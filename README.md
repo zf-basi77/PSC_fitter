@@ -1,8 +1,10 @@
-# PatchView Waveform Analysis
+# Post-synaptic current (PSC) Waveform Analysis
 
 Python/Jupyter notebook for batch analysis of electrophysiology waveform data exported from PatchView.
 
-The analysis is designed to process PatchView helper files and corresponding waveform files, identify individual events, fit their decay kinetics, and extract several descriptive properties of each event.
+The analysis is designed to process PatchView helper files and corresponding waveform files (see examples folder), identify individual events, fit their decay kinetics, and extract several descriptive properties of each event.
+
+*** The fitting function employs a differential evolution algorithm to ensure best fits; parameters can be tuned to optimize fits. Along with safeguards, the algorithm allows for the fitting of all possible PSCs rather than just a 'well-behaved' average; this allows for granular analysis of PSC kinetics across recording length, conditions, etc. Visualization tools are included. Given a fit, different metrics (adj_r^2) are included to assess how well the fit represents the raw input. Additional diagnostic metrics will be included because R^2 alone may not adequately characterize model fit in nonlinear regression, particularly when residuals deviate from the assumptions of the statistical model. ***
 
 ## Overview
 
