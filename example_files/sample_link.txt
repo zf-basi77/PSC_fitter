@@ -1,0 +1,4 @@
+Link to sample data below. There is also a pkl file with an example of output data following the fitting block. 
+The data in the pkl file was based on multiple different source files, which include but are not limited to the ahred csv/tsv source files. 
+
+https://drive.google.com/drive/folders/1d42PhQKIcYnlaOHrJOFW0_9fCFdrayMq?usp=sharing
